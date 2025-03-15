@@ -1,9 +1,5 @@
 package com.company.employee.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
-@Getter
 
 public class AuthenticationResponse {
     private final String token;
@@ -12,4 +8,7 @@ public class AuthenticationResponse {
         this.token = token;
     }
 
+    public String getToken() {
+        return token;
+    }
 }
