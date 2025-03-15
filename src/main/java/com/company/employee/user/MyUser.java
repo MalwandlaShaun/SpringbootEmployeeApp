@@ -20,6 +20,7 @@ public class MyUser {
     private String role; //Eg: ADMIN, EMPLOYEE
 
 
+
     @Override
     public String toString() {
         return "User{" +
