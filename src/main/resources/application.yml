@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      username: shaun
+      password: shaun
+      host: localhost
+      port: 27017
+      database: shauncoding
+      authentication-database: admin
